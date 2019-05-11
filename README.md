@@ -13,3 +13,5 @@ Main goals in making this app:
 * vowels *a*, *e*, *i*, *o*, *u*
 * syllables consisting of a consonant followed by the above mentioned vowels
 * the consonant *n*
+
+Read more about *katakana* on [Wikipedia](https://en.wikipedia.org/wiki/Katakana).
