@@ -9,6 +9,7 @@ class UserInput extends React.Component {
 
   onFormSubmit = (event) => {
     event.preventDefault();
+    this.props.updateInputText(this.state.term);
   };
 
   render() {
