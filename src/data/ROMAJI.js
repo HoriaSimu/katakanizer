@@ -12,6 +12,25 @@ const ROMAJI = [
     replacement: "ki"
   },
   {
+    original: "cea",
+    replacement: "cha"
+  },
+  {
+    original: "ce",
+    replacement: "che"
+  },
+  { original: "ciu",
+    replacement: "chu"
+  },
+  {
+    original: "cio",
+    replacement: "cho"
+  },
+  {
+    original: "ci",
+    replacement: "chi"
+  },
+  {
     original: "ge",
     replacement: "je"
   },
@@ -28,12 +47,40 @@ const ROMAJI = [
     replacement: "gi"
   },
   {
+    original: "șa",
+    replacement: "sha"
+  },
+  {
+    original: "șe",
+    replacement: "she"
+  },
+  {
+    original: "și",
+    replacement: "shi"
+  },
+  {
+    original: "șo",
+    replacement: "sho"
+  },
+  {
     original: "ș",
-    replacement: "sh"
+    replacement: "shu"
+  },
+  {
+    original: "ța",
+    replacement: "tsa"
+  },
+  {
+    original: "țe",
+    replacement: "tse"
+  },
+  {
+    original: "ți",
+    replacement: "tsi"
   },
   {
     original: "ț",
-    replacement: "ts"
+    replacement: "tsu"
   },
   {
     original: "ă",
@@ -56,36 +103,25 @@ const ROMAJI = [
     replacement: "r"
   },
   {
-    original: "c",
-    replacement: "k"
+    original: "cu",
+    replacement: "ku"
+  },
+  {
+    original: "co",
+    replacement: "ko"
+  },
+  {
+    original: "ca",
+    replacement: "ka"
   },
   {
     original: "q",
     replacement: "k"
   },
   {
-    original: "io",
-    replacement: "yo"
-  },
-  {
-    original: "ia",
-    replacement: "ya"
-  },
-  {
-    original: "iu",
-    replacement: "yu"
-  },
-  {
-    original: "ua",
-    replacement: "wa"
-  },
-  {
-    original: "uo",
-    replacement: "wo"
-  },
-  { original: "ti",
-    replacement: "chi"
-  }  
+    original: "x",
+    replacement: "ks"
+  }
 ];
 
 export default ROMAJI;

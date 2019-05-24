@@ -6,6 +6,12 @@ const convertToRomaji = (string) => {
   let splitString = [];
   let output = [];
   let i = 0;
+  let specialVowels = ['ia','iu','io','ua','uo'];
+  let triplets = ['chi','tsu','kya','kyu','kyo','sha','shu','sho','cha','chu',
+                  'cho','nya','nyu','nyo','hya','hyu','hyo','mya','myu','myo',
+                  'rya','ryu','ryo','gya','gyo','bya','byu','byo','pya','pyu',
+                  'pyo','shi', 'che', 'she', 'tsa', 'tsi','tse','tso'];
+
 
   function vowelTest(s) {
     return (/^[aeiou]$/i).test(s);
@@ -20,22 +26,42 @@ const convertToRomaji = (string) => {
 
   while (i < splitString.length) {
     if (vowelTest(splitString[i]) || splitString[i]=== ' ') {
-      output.push(splitString[i]);
-      i++;
-    }
-    else {
-      if (vowelTest(splitString[i+1])) {
-        output.push(splitString[i]+splitString[i+1]);
-        i+=2;
-      }
-      else if (splitString[i]==='n') {
+      if (specialVowels.includes(splitString[i]+splitString[i+1])) {
+        if (vowelTest(splitString[i-1])) {
+          if (splitString[i]==='i') {
+            output.push('y'+splitString[i+1]);
+            i+=2;
+          } else {
+            output.push('w'+splitString[i+1]);
+            i+=2;
+          }
+        } else {
+          output.push(splitString[i]);
+          i++;
+        }
+      } else {
         output.push(splitString[i]);
         i++;
       }
-      else {
-        output.push(splitString[i]+'u');
-        i++;
-      }
+    }
+    else {
+      if (triplets.includes(splitString[i]+splitString[i+1]+splitString[i+2])) {
+        output.push(splitString[i]+splitString[i+1]+splitString[i+2]);
+        i+=3;
+      } else if (vowelTest(splitString[i+1])) {
+        output.push(splitString[i]+splitString[i+1]);
+        i+=2;
+      } else if (splitString[i]==='n') {
+          output.push(splitString[i]);
+          i++;
+        }
+        else {
+          if (splitString[i]==='c') {
+            splitString[i]='k';
+          }
+          output.push(splitString[i]+'u');
+          i++;
+        }
     }
   }
 

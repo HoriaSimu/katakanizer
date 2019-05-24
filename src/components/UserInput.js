@@ -17,7 +17,7 @@ class UserInput extends React.Component {
       <div className="search-bar ui segment">
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field">
-            <label>Convert text</label>
+            <label>Enter your name:</label>
             <input
               type="text"
               value={this.state.term}

@@ -2,11 +2,9 @@ const convertToKana = (string, kanaSet) => {
   let output = [];
 
   string.forEach( syllable => {
-    try {
+    if (kanaSet.hasOwnProperty(syllable)) {
       output.push(kanaSet[syllable]);
-    }
-
-    catch(e) {
+    } else {
       output.push("?");
     }
   });

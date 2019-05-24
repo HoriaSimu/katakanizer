@@ -1,6 +1,7 @@
 import React from 'react';
 import UserInput from './UserInput';
 import AppOutput from './AppOutput';
+import './App.css';
 
 class App extends React.Component {
   state = {
@@ -14,7 +15,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="ui container">
-        <h2>The Katakanizer</h2>
+        <h1>The Katakanizer</h1>
         <UserInput updateInputText={this.updateInputText}/>
         <AppOutput currentText={this.state.currentText}/>
       </div>
