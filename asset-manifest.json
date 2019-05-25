@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/katakanizer/static/css/main.2a8f2d5c.chunk.css",
-    "main.js": "/katakanizer/static/js/main.39d28ccf.chunk.js",
-    "main.js.map": "/katakanizer/static/js/main.39d28ccf.chunk.js.map",
+    "main.css": "/katakanizer/static/css/main.5b8c8ecd.chunk.css",
+    "main.js": "/katakanizer/static/js/main.0be03d5e.chunk.js",
+    "main.js.map": "/katakanizer/static/js/main.0be03d5e.chunk.js.map",
     "runtime~main.js": "/katakanizer/static/js/runtime~main.76b53e15.js",
     "runtime~main.js.map": "/katakanizer/static/js/runtime~main.76b53e15.js.map",
     "static/js/2.d6a534e5.chunk.js": "/katakanizer/static/js/2.d6a534e5.chunk.js",
     "static/js/2.d6a534e5.chunk.js.map": "/katakanizer/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/katakanizer/index.html",
-    "precache-manifest.2a8e5881ee9c596a88b0e38f9c7bfda5.js": "/katakanizer/precache-manifest.2a8e5881ee9c596a88b0e38f9c7bfda5.js",
+    "precache-manifest.4dbce2c12712c05caec4a65aadc11dde.js": "/katakanizer/precache-manifest.4dbce2c12712c05caec4a65aadc11dde.js",
     "service-worker.js": "/katakanizer/service-worker.js",
-    "static/css/main.2a8f2d5c.chunk.css.map": "/katakanizer/static/css/main.2a8f2d5c.chunk.css.map"
+    "static/css/main.5b8c8ecd.chunk.css.map": "/katakanizer/static/css/main.5b8c8ecd.chunk.css.map"
   }
 }

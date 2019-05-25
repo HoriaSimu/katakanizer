@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "243c2a0a676c8409d7defe309c72ce81",
+    "revision": "20b741b296e6824c0fb8f262fa10603b",
     "url": "/katakanizer/index.html"
   },
   {
-    "revision": "bcba976ecae54d89863a",
-    "url": "/katakanizer/static/css/main.2a8f2d5c.chunk.css"
+    "revision": "4f096b91d70d8b3f3a59",
+    "url": "/katakanizer/static/css/main.5b8c8ecd.chunk.css"
   },
   {
     "revision": "9eee67cf782a38d35aeb",
     "url": "/katakanizer/static/js/2.d6a534e5.chunk.js"
   },
   {
-    "revision": "bcba976ecae54d89863a",
-    "url": "/katakanizer/static/js/main.39d28ccf.chunk.js"
+    "revision": "4f096b91d70d8b3f3a59",
+    "url": "/katakanizer/static/js/main.0be03d5e.chunk.js"
   },
   {
     "revision": "898e6ce3bb0fd1dc70a5",
