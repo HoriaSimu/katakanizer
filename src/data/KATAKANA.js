@@ -95,6 +95,7 @@ const KATAKANA = {
         ja : "ジャ",
         ju : "ジュ",
         jo : "ジョ",
+        je: "ジェ",
         bya : "ビャ",
         byu : "ビュ",
         byo : "ビョ",

@@ -1,5 +1,11 @@
-.katakana {
+.katakana,
+.romaji {
   font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+  text-align: center;
+  line-height: 150%;
+}
+
+.katakana {
   font-size: 2.5em;
   font-weight: bold;
   text-align: center;
@@ -8,10 +14,8 @@
 }
 
 .romaji {
-  font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
   font-size: 1.4em;
   letter-spacing: 0.15em;
-  text-align: center;
   text-transform: uppercase;
 
   margin-top: 1em;
