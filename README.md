@@ -3,7 +3,7 @@
 This is a simple app which will transliterate user's input to *katakana*, a Japanese writing system used primarily for writing foreign words and names.
 
 You can see it in action here:
-https://gherazaurul.github.io/katakanizer/
+https://horiasimu.github.io/katakanizer/
 
 Main goals in making this app:
 * Refreshing my knowledge of JS (and particularily the use of regex)
